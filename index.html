@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/all.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Document</title>
+</head>
+<body>
+  <!-- Start nav -->
+  <nav class="navbar d-flex py-5 ">
+    <div class="container-fluid justify-content-around container">
+      <a class="navbar-brand d-flex" href="#">
+        <img src="./image/logo.png" class="d-inline-block align-text-top">
+        <div class="logo-type">
+          <h3 class="px-2 text-white">Weather</h3>
+        </div>
+      </a>
+      <div class="main-navigation">
+        <ul class="menu list-unstyled d-flex">
+          <li class="current-menu-item ">
+            <a href="/" class="text-decoration-none text-white">Home</a>
+          </li>
+          <li class="menu-item px-3">
+            <a href="#" class="text-decoration-none px-4">New</a>
+          </li>
+          <li class="menu-item px-3">
+            <a href="#" class="text-decoration-none  px-4">Live Cameras</a>
+          </li>
+          <li class="menu-item px-3">
+            <a href="#" class="text-decoration-none  px-4">Photos</a>
+          </li>
+          <li class="menu-item px-3">
+            <a href="contact.html" class="text-decoration-none  px-4">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- End nav -->
+  <header >
+    <div class="container">
+      <form class="find-location text-center">
+        <input type="text" placeholder="Find your location..." id="search" class="w-75 my-5 p-3">
+        <input type="button" value="Find" id="sumbit" class="p-3">
+      </form>
+    </div>
+    <!-- ---------------------------------------------------------- -->
+    <div class="container">
+      <div class="row container position-absolute">
+        <div class="col-md-4 foreact-1 p-0">
+          <div class="forecast-header d-flex justify-content-between  ">
+            <div class="day text-white"><span id="date_today">Friday</span></div>
+            <div class="date text-white"><span id="date_number">5</span>
+            <span id="date_month">Juanuary</span>
+            </div>
+          </div>
+          <div class="forecast-content p-3">
+            <div class="location">
+              <h5 class="text-white"><span id="city">Cairo</span></h5>
+            </div>
+            <div class="degree d-flex justify-content-between ">
+              <div class="num py-3">
+                <h1 class="text-white">
+                  <span id="today_temp">21</span>
+                 <span><sup>o</sup>C</span></h1>
+              </div>
+              <div class="forecast-icon py-3">
+                <img id="today_condition_img" src="./image/113.webp" width="100px">
+              </div>
+            </div>
+            <div class="custom my-3"><span id="today_condition_text">Sunny</span></div>
+            <div class="list my-3">
+              <span class=""><img src="./image/icon-umberella.png" /> <span id="humidity">20</span>%</span>
+              <span class="px-3"><img src="./image/icon-wind.png" /> <span id="km">18</span>Km/h</span>
+              <span class="px-3"><img src="./image/icon-compass.png" /> <span id="esat">Esat</span></span>
+            </div>
+          </div>
+        </div>
+        <!-- ------------------------------------------------- -->
+        <div class="col-md-4 foreact-2 p-0">
+          <div class="forecast-header2 ">
+              <div class="day text-white text-center"><span class="next_day">Saturday</span></div>
+          </div>
+          <div class="forecast-content2">
+            <div class="forecast-icon text-center mt-5">
+              <img class="sec_img" src="./image/113.webp" width="80px"/>
+            </div>
+            <div class="degree text-white text-center">
+              <h3><span class="sec_degree">22.3</span><sup>o</sup>C</h3>
+              <span><span class="sec2_degree">14</span><sup>o</sup></span>
+            </div>
+            <div class="custom text-center"><span class="sec_condition_text">Sunny</span></div>
+          </div>
+        </div>
+        <!-- --------------------------- -->
+        <div class="col-md-4 foreact-3 p-0">
+          <div class="forecast-header3 ">
+              <div class="day text-white text-center"><span class="next_day">Sunday</span></div>
+          </div>
+          <div class="forecast-content3">
+            <div class="forecast-icon text-center mt-5">
+              <img class="sec_img" src="./image/113.webp" width="80px"/>
+            </div>
+            <div class="degree text-white text-center">
+              <h3 ><span class="sec_degree">22.3</span><sup>o</sup>C</h3>
+              <span><span class="sec2_degree"></span>14.7</span> <sup>o</sup></span>
+            </div>
+            <div class="custom text-center"><span class="sec_condition_text">Sunny</span></div>
+          </div>
+        </div>
+        <!-- ------------------------- -->
+      </div>
+    </div>
+  </header>
+  <!-- -------------------------------------------------------------- -->
+  <!-- start footer -->
+  <footer class="site-footer">
+    <div class="container py-5">
+      <div class="row">
+        <div class="col-md-8">
+          <form class="">
+            <input type="text" placeholder="Find your location..." id="search" class="w-75 p-3" >
+            <input type="button" value="Find" id="sumbit" class="p-3">
+          </form>
+          <p class="text-white my-3">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+        </div>
+        <div class="col-md-3 col-md-offset-1">
+          <div class="social-links">
+            <a href="#"><i class="fa-brands fa-facebook p-1"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter p-1"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram p-1"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- end footer -->
+ <script src="./js/bootstrap.bundle.min.js"></script>
+ <script src="./main.js"></script>
+</body>
+</html>

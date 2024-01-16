@@ -1,0 +1,76 @@
+/*  Start nav */
+body {
+    background-color: #1E202B;
+}
+.main-navigation .menu .current-menu-item a{
+    padding: 5px 25px;
+    border: 2px solid #009AD8;
+    border-radius: 30px;
+}
+.main-navigation .menu a {
+    color: #fff;
+}
+.main-navigation .menu a:hover {
+   color: #009AD8;
+    border: 2px solid #009AD8;
+    border-radius: 30px;
+    font-weight: 400;
+}
+/* End-nav */
+/* start header */
+header {
+    background-image: url(/image/banner.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   min-height: 350px;
+   background-position: center center;
+
+}
+#search {
+    background-color: #1E202B;
+    border: none;
+    border-radius: 30px;
+}
+#sumbit {
+    background-color: #009AD8;
+    border: none;
+    border-radius: 25px;
+    color: #fff;
+}
+.foreact-1 {
+    background-color: #323544;
+
+}
+
+.degree .num h1{
+    font-size: 4.5rem;
+    font-weight: 700;
+}
+.custom span {
+    color: #009AD8;
+}
+.list span{
+    color: #fff;
+}
+/* -------------------------------- */
+.foreact-2 {
+    background-color:#262936 ;
+}
+/* ---------------------- */
+.foreact-3 {
+    background-color: #323544;
+    
+}
+.forecast-header , .forecast-header2 , .forecast-header3 {
+    background-color: #1E202B;
+    opacity: 0.5;
+    padding: 5px;
+}
+/* end header */
+/* start footer */
+.site-footer {
+    background-color: #262936;
+    min-height: 310px;
+    margin-top: 150px;
+}
+/* end footer */
